@@ -2,7 +2,7 @@ import os
 import subprocess
 from datetime import datetime
 
-for i in range(50):
+for i in range(7):
   # 1. Get the current directory where this script is located
   repo_path = os.path.dirname(os.path.abspath(__file__))
   file_path = os.path.join(repo_path, "daily_log.txt")
