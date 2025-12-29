@@ -1,8 +1,10 @@
 import os
 import subprocess
 from datetime import datetime
+import random
 
-for i in range(7):
+rannum = random.randint(1,5)
+for i in range(rannum):
   # 1. Get the current directory where this script is located
   repo_path = os.path.dirname(os.path.abspath(__file__))
   file_path = os.path.join(repo_path, "daily_log.txt")
